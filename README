@@ -7,3 +7,5 @@ now you can do:
 /etc/xen/myservice.example.com      - to create the domain
 /etc/xen/myservice.example.com -d   - to destroy the domain
 
+
+Thanks to geirha for the bash trick and Kamilion for the idea.
