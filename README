@@ -1,0 +1,9 @@
+Copy xl_starter in /usr/bin
+Put #!/usr/bin/xl_starter as the first line of your xen xl configs
+Make them executable
+
+now you can do:
+
+/etc/xen/myservice.example.com      - to create the domain
+/etc/xen/myservice.example.com -d   - to destroy the domain
+

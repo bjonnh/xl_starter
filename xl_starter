@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ ${2} && ${2} == "-d" ]] ; then
+  xl destroy $(grep -E ^name ${1} | cut -d = -f 2 | xargs)
+else
+  xl create ${1}
+fi
